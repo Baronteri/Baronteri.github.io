@@ -44,7 +44,7 @@ body {
 }
 
 .header-castle {
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-fit: cover;
   max-height: 400px;
