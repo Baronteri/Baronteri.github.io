@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -19,28 +20,30 @@ body {
 
 .split-header .right {
   flex: 2;
+  max-width: 800px;
 }
 
 .header-logo {
-  width: 100px;
+  width: 120px;
   margin-bottom: 20px;
 }
 
 .clan-button {
+  display: inline-block;
   background-color: #111;
   color: #fff;
-  padding: 10px 20px;
-  font-weight: bold;
+  padding: 12px 24px;
+  font-size: 16px;
   letter-spacing: 2px;
   border-radius: 4px;
-  display: inline-block;
 }
 
 .header-castle {
   width: 100%;
   height: auto;
-  max-height: 400px;
+  max-height: 500px;
   object-fit: cover;
+  display: block;
 }
 
 @media (max-width: 768px) {
