@@ -1,67 +1,22 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: white;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clan Alvis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-.split-header {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #e5eaeb;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 20px;
-}
+  <header class="split-header">
+    <div class="left">
+      <img src="images/2.webp" alt="Clan Alvis Logo" class="header-logo" />
+      <div class="clan-button">CLAN ALVIS</div>
+    </div>
+    <div class="right">
+      <img src="images/1.webp" alt="Castle" class="header-castle" />
+    </div>
+  </header>
 
-.split-header .left {
-  flex: 1;
-  text-align: center;
-  padding: 20px;
-}
-
-.split-header .right {
-  flex: 1;
-  text-align: center;
-  padding: 20px;
-}
-
-.header-logo {
-  width: 140px;
-  max-width: 80%;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.clan-button {
-  display: inline-block;
-  background-color: #111;
-  color: white;
-  padding: 14px 28px;
-  font-weight: bold;
-  font-size: 16px;
-  letter-spacing: 1px;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-}
-
-.clan-button:hover {
-  background-color: #444;
-}
-
-.header-castle {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-@media (max-width: 768px) {
-  .split-header {
-    flex-direction: column;
-  }
-}
+</body>
+</html>
