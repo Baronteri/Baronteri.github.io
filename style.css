@@ -1,46 +1,65 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: white;
-  text-align: 50px center;
+  background: #fff;
 }
 
-.header {
+.split-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #e5eaeb;
-  padding: 40px 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.split-header .left {
+  flex: 1;
+  text-align: left;
+}
+
+.split-header .right {
+  flex: 1;
+  text-align: right;
 }
 
 .header-logo {
-  width: 150px;
-  max-width: 80%;
-  margin-bottom: 20px;
+  width: 120px;
+  max-width: 100%;
+  margin-bottom: 10px;
 }
 
 .clan-button {
   display: inline-block;
   background-color: #111;
   color: white;
-  padding: 12px 24px;
+  padding: 10px 20px;
   font-weight: bold;
   font-size: 16px;
-  letter-spacing: 1px;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-bottom: 30px;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  margin-top: 10px;
 }
 
 .header-castle {
   width: 100%;
-  max-width: 800px;  /* previously 600px */
+  max-width: 600px; /* adjust for larger image */
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-
-@media (min-width: 1024px) {
+@media (max-width: 768px) {
+  .split-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .split-header .left,
+  .split-header .right {
+    text-align: center;
+  }
   .header-castle {
-    max-width: 1000px;
+    max-width: 90%;
   }
 }
