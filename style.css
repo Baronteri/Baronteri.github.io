@@ -3,65 +3,37 @@ body {
   margin: 0;
   padding: 0;
   background: white;
+  text-align: center;
 }
 
-.split-header {
-  display: flex;
-  flex-wrap: wrap;
+.header {
   background-color: #e5eaeb;
-  align-items: center;
-  justify-content: center;
   padding: 40px 20px;
 }
 
-.split-header .left {
-  flex: 1;
-  text-align: center;
-  padding: 20px;
-}
-
-.split-header .right {
-  flex: 1;
-  text-align: center;
-  padding: 20px;
-}
-
 .header-logo {
-  width: 140px;
+  width: 150px;
   max-width: 80%;
   margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .clan-button {
   display: inline-block;
   background-color: #111;
   color: white;
-  padding: 14px 28px;
+  padding: 12px 24px;
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 1px;
   border-radius: 6px;
-  transition: background-color 0.3s ease;
   cursor: pointer;
-}
-
-.clan-button:hover {
-  background-color: #444;
+  margin-bottom: 30px;
 }
 
 .header-castle {
-  width: 100%;
-  max-width: 500px;
+  width: 90%;
+  max-width: 600px;
   height: auto;
-  object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-@media (max-width: 768px) {
-  .split-header {
-    flex-direction: column;
-  }
 }
