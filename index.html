@@ -2,21 +2,155 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Clan Alvis</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Clan Alvis – family history, photo gallery, and stories." />
+  <meta property="og:title" content="Clan Alvis" />
+  <meta property="og:description" content="Family history, photo gallery, and stories." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5a9" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container row">
+      <div class="brand">
+        <img src="images/2.webp" alt="Clan Alvis crest" />
+        <span>CLAN ALVIS</span>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<header class="split-header">
-  <div class="left">
-    <img src="images/2.webp" alt="Clan Alvis Logo" class="header-logo">
-    <div class="clan-button">CLAN ALVIS</div>
-  </div>
-  <div class="right">
-    <img src="images/1.webp" alt="Castle" class="header-castle">
-  </div>
-</header>
+  <main>
+    <!-- Hero split -->
+    <div class="container hero" id="top">
+      <div class="panel">
+        <div style="text-align:center">
+          <img class="crest" src="images/2.webp" alt="Clan Alvis crest" loading="lazy" />
+          <div class="cta"><a class="btn" href="#about">CLAN ALVIS</a></div>
+        </div>
+      </div>
+      <figure class="hero-media">
+        <img src="images/1.jpeg" alt="Family castle landscape" />
+      </figure>
+    </div>
 
+    <!-- About -->
+    <section id="about" class="container center">
+      <h2>About Us</h2>
+      <div class="under"></div>
+      <div class="about-grid">
+        <article class="bubble">
+          <div class="avatar"><img src="images/38.webp" alt="Who we are"></div>
+          <h3>Who We Are</h3>
+          <p class="muted">A short intro to our family and heritage.</p>
+        </article>
+        <article class="bubble">
+          <div class="avatar"><img src="images/21.webp" alt="Past times"></div>
+          <h3>Our Favorite Past Times</h3>
+          <p class="muted">Memories, traditions, and gatherings.</p>
+        </article>
+        <article class="bubble">
+          <div class="avatar"><img src="images/3.webp" alt="Fun facts"></div>
+          <h3>Fun Facts</h3>
+          <p class="muted">Stories that make us smile.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="container">
+      <div class="center">
+        <h2>Photo Gallery</h2>
+        <div class="under"></div>
+      </div>
+
+      <div class="gallery" role="region" aria-label="Photo gallery">
+        <figure class="stage">
+          <img id="stageImg" src="images/4.webp" alt="Gallery image" />
+        </figure>
+        <div class="thumbs" id="thumbs" aria-label="Thumbnails">
+          <!-- Images 4 to 20 + 22 to 43 (excluding 21) -->
+          <button class="active"><img src="images/4.webp" alt="thumb 4"></button>
+          <button><img src="images/5.webp" alt="thumb 5"></button>
+          <button><img src="images/6.webp" alt="thumb 6"></button>
+          <button><img src="images/7.webp" alt="thumb 7"></button>
+          <button><img src="images/8.webp" alt="thumb 8"></button>
+          <button><img src="images/9.webp" alt="thumb 9"></button>
+          <button><img src="images/10.webp" alt="thumb 10"></button>
+          <button><img src="images/11.webp" alt="thumb 11"></button>
+          <button><img src="images/12.webp" alt="thumb 12"></button>
+          <button><img src="images/13.webp" alt="thumb 13"></button>
+          <button><img src="images/14.webp" alt="thumb 14"></button>
+          <button><img src="images/15.webp" alt="thumb 15"></button>
+          <button><img src="images/16.webp" alt="thumb 16"></button>
+          <button><img src="images/17.webp" alt="thumb 17"></button>
+          <button><img src="images/18.webp" alt="thumb 18"></button>
+          <button><img src="images/19.webp" alt="thumb 19"></button>
+          <button><img src="images/20.webp" alt="thumb 20"></button>
+          <button><img src="images/22.webp" alt="thumb 22"></button>
+          <button><img src="images/23.webp" alt="thumb 23"></button>
+          <button><img src="images/24.webp" alt="thumb 24"></button>
+          <button><img src="images/25.webp" alt="thumb 25"></button>
+          <button><img src="images/26.webp" alt="thumb 26"></button>
+          <button><img src="images/27.webp" alt="thumb 27"></button>
+          <button><img src="images/28.webp" alt="thumb 28"></button>
+          <button><img src="images/29.webp" alt="thumb 29"></button>
+          <button><img src="images/30.webp" alt="thumb 30"></button>
+          <button><img src="images/31.webp" alt="thumb 31"></button>
+          <button><img src="images/32.webp" alt="thumb 32"></button>
+          <button><img src="images/33.webp" alt="thumb 33"></button>
+          <button><img src="images/34.webp" alt="thumb 34"></button>
+          <button><img src="images/35.webp" alt="thumb 35"></button>
+          <button><img src="images/36.webp" alt="thumb 36"></button>
+          <button><img src="images/37.webp" alt="thumb 37"></button>
+          <button><img src="images/39.webp" alt="thumb 39"></button>
+          <button><img src="images/40.webp" alt="thumb 40"></button>
+          <button><img src="images/41.webp" alt="thumb 41"></button>
+          <button><img src="images/42.webp" alt="thumb 42"></button>
+          <button><img src="images/43.webp" alt="thumb 43"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <section id="contact" class="container">
+      <div class="footer-card">
+        <h2 class="center">Get in Touch</h2>
+        <div class="under"></div>
+        <p class="muted">Questions or contributions to the family archive? Email us at
+          <a href="mailto:hello@clanalvis.com">hello@clanalvis.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="center">
+    <div class="container">
+      <p>© <span id="year"></span> Clan Alvis. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const stage = document.getElementById('stageImg');
+    const thumbs = document.getElementById('thumbs');
+    thumbs.addEventListener('click', (e) => {
+      const btn = e.target.closest('button');
+      if (!btn) return;
+      const img = btn.querySelector('img');
+      if (img) {
+        stage.src = img.src;
+        [...thumbs.querySelectorAll('button')].forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-</html
+</html>
